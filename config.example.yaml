@@ -1,0 +1,106 @@
+docx:
+  page:
+    size: A4                  # A4 / Letter
+    orientation: portrait    # portrait / landscape
+    margins_cm:
+      top: 2.54
+      right: 2.54
+      bottom: 2.54
+      left: 2.54
+
+  body:
+    font: Microsoft YaHei
+    font_size_pt: 11
+    color: "000000"
+    alignment: left          # left / center / right / justify
+    space_before_pt: 0
+    space_after_pt: 6
+    line_spacing: 1.15
+
+  headings:
+    "1":
+      font: Microsoft YaHei
+      font_size_pt: 20
+      color: "1F4E79"
+      bold: true
+      space_before_pt: 16
+      space_after_pt: 8
+    "2":
+      font: Microsoft YaHei
+      font_size_pt: 16
+      color: "2F5597"
+      bold: true
+      space_before_pt: 12
+      space_after_pt: 6
+    "3":
+      font: Microsoft YaHei
+      font_size_pt: 13
+      color: "1F4E79"
+      bold: true
+      space_before_pt: 10
+      space_after_pt: 4
+
+  lists:
+    left_indent_cm: 0.74
+    hanging_cm: 0.32
+    space_after_pt: 3
+
+  table:
+    style: Table Grid
+    font: Microsoft YaHei
+    font_size_pt: 10
+    indent_dxa: 120
+    header_fill: "D9EAF7"
+    header_font_color: "1F1F1F"
+    border_color: "A6A6A6"
+    cell_margin_dxa:
+      top: 80
+      right: 120
+      bottom: 80
+      left: 120
+    vertical_alignment: center
+    repeat_header: true
+
+  code:
+    font: Consolas
+    font_size_pt: 9
+    fill: "F3F4F6"
+    color: "1F2937"
+
+  blockquote:
+    left_indent_cm: 0.74
+    color: "666666"
+    italic: true
+
+  header:
+    text: ""
+    font_size_pt: 9
+    color: "808080"
+  footer:
+    text: ""
+    show_page_number: false
+    font_size_pt: 9
+    color: "808080"
+
+excel:
+  merge_mode: merge           # merge / expand
+  sheet_name_mode: title      # title / sequential
+  font: Microsoft YaHei
+  font_size_pt: 10
+  header:
+    fill: "4472C4"
+    font_color: "FFFFFF"
+    bold: true
+  body:
+    font_color: "000000"
+  border_color: "D9E2F3"
+  alignment:
+    horizontal: left
+    vertical: center
+    wrap_text: true
+  freeze_header: true
+  auto_filter: true
+  hide_gridlines: true
+  min_column_width: 10
+  max_column_width: 45
+  row_height: 22

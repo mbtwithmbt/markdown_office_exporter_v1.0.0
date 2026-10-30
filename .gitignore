@@ -1,0 +1,59 @@
+# Python environments, caches and packaging output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Private environment variables and local configuration
+.env
+.env.*
+*.env
+*.env.local
+!.env.example
+!.env.*.example
+!*.env.example
+/.streamlit/secrets.toml
+*.local.json
+*.local.yaml
+*.local.yml
+
+# Application runtime repositories: documents, originals, ledgers and settings
+/markdown_repo/
+/docx_repo/
+/excel_repo/
+/config_repo/
+/ocr_repo/
+/ocr_watch/
+/temp_uploads/
+/output/
+
+# OCR deployment runtime: keep scripts, sample images and example config in Git
+/deploy/windows_ocr/models/
+/deploy/windows_ocr/logs/
+/deploy/windows_ocr/output/
+/deploy/windows_ocr/config/mineru.json
+
+# Logs, temporary files and generated archives
+*.log
+*.pid
+*.tmp
+*.bak
+*.zip
+
+# Local editor and operating-system files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
